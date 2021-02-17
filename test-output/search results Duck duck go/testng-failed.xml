@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [search results Duck duck go]">
+  <test thread-count="5" name="Search Test java(failed)">
+    <parameter name="search_text" value="java"/>
+    <classes>
+      <class name="com.searchmodule.test.SearchTest">
+        <methods>
+          <include name="SearchTest" invocation-numbers="0"/>
+          <include name="launchBrowser"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- com.searchmodule.test.SearchTest -->
+    </classes>
+  </test> <!-- Search Test java(failed) -->
+  <test thread-count="5" name="Search Test qa(failed)">
+    <parameter name="search_text" value="qa"/>
+    <classes>
+      <class name="com.searchmodule.test.SearchTest">
+        <methods>
+          <include name="SearchTest" invocation-numbers="0"/>
+          <include name="launchBrowser"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- com.searchmodule.test.SearchTest -->
+    </classes>
+  </test> <!-- Search Test qa(failed) -->
+</suite> <!-- Failed suite [search results Duck duck go] -->
