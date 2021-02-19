@@ -1,0 +1,26 @@
+{
+  "cases": [
+    {
+      "name": "Registration parameters in main test",
+      "case": {
+        "contactinfo": {
+          "firstname": "vishnu",
+          "lastname": "vardhan",
+          "phone_number": "8074839733",
+          "email": "vishnu26121993@gmail.com"
+        },
+        "mail_info": {
+          "address": "address",
+          "city": "city",
+          "state": "state",
+          "pincode": "pincode"
+        },
+        "user_info": {
+          "user_name": "user_name",
+          "password": "password"
+        },
+        "country": "INDIA"
+      }
+    }
+    ]
+}

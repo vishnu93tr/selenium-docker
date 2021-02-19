@@ -6,11 +6,12 @@ services:
     - "4444:4444"
   chrome:
     image: selenium/node-chrome:3.141.59
-    shm_size: '2gb'
     depends_on:
       - hub
     environment:
       - HUB_HOST=hub
+    volumes:
+    - /dev/shm:/dev/shm
   firefox:
     image: selenium/node-firefox:3.141.59
     shm_size: '1gb'
