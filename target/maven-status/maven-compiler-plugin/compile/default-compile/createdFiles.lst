@@ -1,7 +1,6 @@
 com/newtours/pages/FlightDetailsPage.class
 Base/Base.class
-com/newtours/pages/RegistrationConfirmationPage.class
-com/duckduckgo/pages/DuckDuckGoPage.class
 com/newtours/pages/FlightConformationPage.class
 com/newtours/pages/FindFlightsPage.class
+com/newtours/pages/RegistrationConfirmationPage.class
 com/newtours/pages/RegistrationPage.class
