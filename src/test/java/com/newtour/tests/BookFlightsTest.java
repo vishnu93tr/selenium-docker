@@ -67,6 +67,8 @@ public class BookFlightsTest extends BaseTest{
     public void printConformationPageTest(){
         FlightConformationPage flightConformationPage=new FlightConformationPage(driver);
         String actual_price=flightConformationPage.getPrice();
+        System.out.println(actual_price+"actual price");
+        System.out.println(expectedPrice+"expected price");
         Assert.assertEquals(actual_price,expectedPrice);
 
     }
