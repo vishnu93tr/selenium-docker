@@ -7,4 +7,3 @@ do
 done
 
 java -cp selenium-docker-automation.jar:selenium-docker-automation-tests.jar:libs/*  -DHUB_HOST=$HUB_HOST -DBROWSER=$BROWSER org.testng.TestNG $MODULE
-

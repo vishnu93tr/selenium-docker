@@ -10,7 +10,7 @@ ADD target/libs libs
 ADD src/test/resources/testcases/FlightsModule/Registration.json testcases/FlightsModule/Registration.json
 #copy xml files
 ADD book_flights.xml book_flights.xml
-ADD search_module.xml search_module.xml
+
 
 #Add health check script
 ADD healthcheck.sh healthcheck.sh

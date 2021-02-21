@@ -1,6 +1,6 @@
 package com.newtour.tests;
 
-import com.aventstack.extentreports.Status;
+
 import com.newtours.pages.*;
 import org.json.JSONObject;
 import org.testng.Assert;
