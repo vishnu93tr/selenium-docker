@@ -19,28 +19,6 @@ services:
       - hub
     environment:
       - HUB_HOST=hub
-  book_flight_module_chrome:
-    image: vishnu26121993/selenium-docker
-    depends_on:
-      - chrome
-      - firefox
-    environment:
-      - HUB_HOST=hub
-      - BROWSER=chrome
-      - MODULE=book_flights.xml
-    volumes:
-      - ./book_flights_chrome:/usr/share/selenium-docker-automation/test-output
-  book_flight_module_firefox:
-    image: vishnu26121993/selenium-docker
-    depends_on:
-      - chrome
-      - firefox
-    environment:
-      - HUB_HOST=hub
-      - BROWSER=firefox
-      - MODULE=book_flights.xml
-    volumes:
-      - ./book_flights_firefox:/usr/share/selenium-docker-automation/test-output
   search_module_firefox:
     image: vishnu26121993/selenium-docker
     depends_on:
@@ -51,16 +29,16 @@ services:
       - BROWSER=firefox
       - MODULE=search_module.xml
     volumes:
-    - ./search_module_firefox:/usr/share/selenium-docker-automation/test-output
+      - ./search_module_firefox:/usr/share/selenium-docker-automation/test-output
   search_module_chrome:
-    image: vishnu26121993/selenium-docker
-    depends_on:
-      - chrome
-      - firefox
-    environment:
-      - HUB_HOST=hub
-      - BROWSER=chrome
-      - MODULE=search_module.xml
-    volumes:
-      - ./search_module_chrome:/usr/share/selenium-docker-automation/test-output
+      image: vishnu26121993/selenium-docker
+      depends_on:
+        - chrome
+        - firefox
+      environment:
+        - HUB_HOST=hub
+        - BROWSER=chrome
+        - MODULE=search_module.xml
+      volumes:
+        - ./search_module_chrome:/usr/share/selenium-docker-automation/test-output
 

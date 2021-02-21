@@ -9,8 +9,6 @@ import tests.BaseTest;
 public class SearchTest extends BaseTest {
 
 
-    private String search_text;
-
     @Test
     @Parameters("search_text")
     public void SearchTest(String search_text){

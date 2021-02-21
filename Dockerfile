@@ -12,7 +12,6 @@ ADD src/test/resources/testcases/FlightsModule/Registration.json testcases/Fligh
 ADD book_flights.xml book_flights.xml
 ADD search_module.xml search_module.xml
 
-
 #Add health check script
 ADD healthcheck.sh healthcheck.sh
 #entrypoint
