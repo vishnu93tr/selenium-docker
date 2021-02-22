@@ -17,5 +17,6 @@ ADD healthcheck.sh healthcheck.sh
 ENTRYPOINT sh healthcheck.sh
 
 #copy failed screenshots if any
-ADD Screenshots/chrome Screenshots/chrome
-ADD Screenshots/firefox Screenshots/firefox
+ADD Output Output/
+ADD Output/Screenshots/chrome Output/Screenshots/chrome
+ADD Output/Screenshots/firefox Output/Screenshots/firefox

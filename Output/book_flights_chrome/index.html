@@ -1,0 +1,1602 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 6 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-book_flight_module">
+              <span class="suite-name border-failed">book-flight-module</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-book_flight_module">
+                    <span>book_flights.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-book_flight_module">
+                    <span class="test-stats">8 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-book_flight_module">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-book_flight_module">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-book_flight_module">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-book_flight_module">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-book_flight_module">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">40 methods, 6 failed,  16 skipped,  18 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-book_flight_module" class="hide-methods failed suite-book_flight_module"> (hide)</a> <!-- hide-methods failed suite-book_flight_module -->
+                      <a href="#" panel-name="suite-book_flight_module" class="show-methods failed suite-book_flight_module"> (show)</a> <!-- show-methods failed suite-book_flight_module -->
+                    </span>
+                    <div class="method-list-content failed suite-book_flight_module">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-book_flight_module" title="com.newtour.tests.BookFlightsTest" hash-for-method="printConformationPageTest">printConformationPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-book_flight_module" title="com.newtour.tests.BookFlightsTest" hash-for-method="printConformationPageTest">printConformationPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-book_flight_module" title="com.newtour.tests.BookFlightsTest" hash-for-method="registrationPageTest(Registration parameters in main test, {&quot;country&quot;:&quot;INDIA&quot;,&quot;user_info&quot;:{&quot;password&quot;:&quot;password&quot;,&quot;user_na...)">registrationPageTest(Registration parameters in main test, {"country":"INDIA","user_info":{"password":"password","user_na...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-book_flight_module" title="com.newtour.tests.BookFlightsTest" hash-for-method="registrationPageTest(Registration parameters in main test, {&quot;country&quot;:&quot;INDIA&quot;,&quot;user_info&quot;:{&quot;password&quot;:&quot;password&quot;,&quot;user_na...)">registrationPageTest(Registration parameters in main test, {"country":"INDIA","user_info":{"password":"password","user_na...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-book_flight_module" title="com.newtour.tests.BookFlightsTest" hash-for-method="registrationPageTest(Registration parameters in main test, {&quot;country&quot;:&quot;INDIA&quot;,&quot;user_info&quot;:{&quot;password&quot;:&quot;password&quot;,&quot;user_na...)">registrationPageTest(Registration parameters in main test, {"country":"INDIA","user_info":{"password":"password","user_na...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-book_flight_module" title="com.newtour.tests.BookFlightsTest" hash-for-method="registrationPageTest(Registration parameters in main test, {&quot;country&quot;:&quot;INDIA&quot;,&quot;user_info&quot;:{&quot;password&quot;:&quot;password&quot;,&quot;user_na...)">registrationPageTest(Registration parameters in main test, {"country":"INDIA","user_info":{"password":"password","user_na...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-book_flight_module -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-book_flight_module" class="hide-methods skipped suite-book_flight_module"> (hide)</a> <!-- hide-methods skipped suite-book_flight_module -->
+                      <a href="#" panel-name="suite-book_flight_module" class="show-methods skipped suite-book_flight_module"> (show)</a> <!-- show-methods skipped suite-book_flight_module -->
+                    </span>
+                    <div class="method-list-content skipped suite-book_flight_module">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-book_flight_module" title="com.newtour.tests.BookFlightsTest" hash-for-method="findFlightsPageTest">findFlightsPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-book_flight_module" title="com.newtour.tests.BookFlightsTest" hash-for-method="findFlightsPageTest">findFlightsPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-book_flight_module" title="com.newtour.tests.BookFlightsTest" hash-for-method="findFlightsPageTest">findFlightsPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-book_flight_module" title="com.newtour.tests.BookFlightsTest" hash-for-method="findFlightsPageTest">findFlightsPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-book_flight_module" title="com.newtour.tests.BookFlightsTest" hash-for-method="flightsDetailsPageTest">flightsDetailsPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-book_flight_module" title="com.newtour.tests.BookFlightsTest" hash-for-method="flightsDetailsPageTest">flightsDetailsPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-book_flight_module" title="com.newtour.tests.BookFlightsTest" hash-for-method="flightsDetailsPageTest">flightsDetailsPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-book_flight_module" title="com.newtour.tests.BookFlightsTest" hash-for-method="flightsDetailsPageTest">flightsDetailsPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-book_flight_module" title="com.newtour.tests.BookFlightsTest" hash-for-method="printConformationPageTest">printConformationPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-book_flight_module" title="com.newtour.tests.BookFlightsTest" hash-for-method="printConformationPageTest">printConformationPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-book_flight_module" title="com.newtour.tests.BookFlightsTest" hash-for-method="printConformationPageTest">printConformationPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-book_flight_module" title="com.newtour.tests.BookFlightsTest" hash-for-method="printConformationPageTest">printConformationPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-book_flight_module" title="com.newtour.tests.BookFlightsTest" hash-for-method="registrationConfirmationPageTest">registrationConfirmationPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-book_flight_module" title="com.newtour.tests.BookFlightsTest" hash-for-method="registrationConfirmationPageTest">registrationConfirmationPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-book_flight_module" title="com.newtour.tests.BookFlightsTest" hash-for-method="registrationConfirmationPageTest">registrationConfirmationPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-book_flight_module" title="com.newtour.tests.BookFlightsTest" hash-for-method="registrationConfirmationPageTest">registrationConfirmationPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-book_flight_module -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-book_flight_module" class="hide-methods passed suite-book_flight_module"> (hide)</a> <!-- hide-methods passed suite-book_flight_module -->
+                      <a href="#" panel-name="suite-book_flight_module" class="show-methods passed suite-book_flight_module"> (show)</a> <!-- show-methods passed suite-book_flight_module -->
+                    </span>
+                    <div class="method-list-content passed suite-book_flight_module">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-book_flight_module" title="com.newtour.tests.BookFlightsTest" hash-for-method="findFlightsPageTest">findFlightsPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-book_flight_module" title="com.newtour.tests.BookFlightsTest" hash-for-method="findFlightsPageTest">findFlightsPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-book_flight_module" title="com.newtour.tests.BookFlightsTest" hash-for-method="findFlightsPageTest">findFlightsPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-book_flight_module" title="com.newtour.tests.BookFlightsTest" hash-for-method="findFlightsPageTest">findFlightsPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-book_flight_module" title="com.newtour.tests.BookFlightsTest" hash-for-method="flightsDetailsPageTest">flightsDetailsPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-book_flight_module" title="com.newtour.tests.BookFlightsTest" hash-for-method="flightsDetailsPageTest">flightsDetailsPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-book_flight_module" title="com.newtour.tests.BookFlightsTest" hash-for-method="flightsDetailsPageTest">flightsDetailsPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-book_flight_module" title="com.newtour.tests.BookFlightsTest" hash-for-method="flightsDetailsPageTest">flightsDetailsPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-book_flight_module" title="com.newtour.tests.BookFlightsTest" hash-for-method="printConformationPageTest">printConformationPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-book_flight_module" title="com.newtour.tests.BookFlightsTest" hash-for-method="printConformationPageTest">printConformationPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-book_flight_module" title="com.newtour.tests.BookFlightsTest" hash-for-method="registrationConfirmationPageTest">registrationConfirmationPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-book_flight_module" title="com.newtour.tests.BookFlightsTest" hash-for-method="registrationConfirmationPageTest">registrationConfirmationPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-book_flight_module" title="com.newtour.tests.BookFlightsTest" hash-for-method="registrationConfirmationPageTest">registrationConfirmationPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-book_flight_module" title="com.newtour.tests.BookFlightsTest" hash-for-method="registrationConfirmationPageTest">registrationConfirmationPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-book_flight_module" title="com.newtour.tests.BookFlightsTest" hash-for-method="registrationPageTest(Registration parameters in main test, {&quot;country&quot;:&quot;INDIA&quot;,&quot;user_info&quot;:{&quot;password&quot;:&quot;password&quot;,&quot;user_na...)">registrationPageTest(Registration parameters in main test, {"country":"INDIA","user_info":{"password":"password","user_na...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-book_flight_module" title="com.newtour.tests.BookFlightsTest" hash-for-method="registrationPageTest(Registration parameters in main test, {&quot;country&quot;:&quot;INDIA&quot;,&quot;user_info&quot;:{&quot;password&quot;:&quot;password&quot;,&quot;user_na...)">registrationPageTest(Registration parameters in main test, {"country":"INDIA","user_info":{"password":"password","user_na...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-book_flight_module" title="com.newtour.tests.BookFlightsTest" hash-for-method="registrationPageTest(Registration parameters in main test, {&quot;country&quot;:&quot;INDIA&quot;,&quot;user_info&quot;:{&quot;password&quot;:&quot;password&quot;,&quot;user_na...)">registrationPageTest(Registration parameters in main test, {"country":"INDIA","user_info":{"password":"password","user_na...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-book_flight_module" title="com.newtour.tests.BookFlightsTest" hash-for-method="registrationPageTest(Registration parameters in main test, {&quot;country&quot;:&quot;INDIA&quot;,&quot;user_info&quot;:{&quot;password&quot;:&quot;password&quot;,&quot;user_na...)">registrationPageTest(Registration parameters in main test, {"country":"INDIA","user_info":{"password":"password","user_na...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-book_flight_module -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-book_flight_module" class="panel book_flight_module">
+          <div class="suite-book_flight_module-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.newtour.tests.BookFlightsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="printConformationPageTest">
+                  </a> <!-- printConformationPageTest -->
+                  <span class="method-name">printConformationPageTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [584 USD] but found [$584 USD]
+	at com.newtour.tests.BookFlightsTest.printConformationPageTest(BookFlightsTest.java:78)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="printConformationPageTest">
+                  </a> <!-- printConformationPageTest -->
+                  <span class="method-name">printConformationPageTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [584 USD] but found [$584 USD]
+	at com.newtour.tests.BookFlightsTest.printConformationPageTest(BookFlightsTest.java:78)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registrationPageTest(Registration parameters in main test, {&quot;country&quot;:&quot;INDIA&quot;,&quot;user_info&quot;:{&quot;password&quot;:&quot;password&quot;,&quot;user_na...)">
+                  </a> <!-- registrationPageTest(Registration parameters in main test, {"country":"INDIA","user_info":{"password":"password","user_na...) -->
+                  <span class="method-name">registrationPageTest</span>
+                  <span class="parameters">(Registration parameters in main test, {"country":"INDIA","user_info":{"password":"password","user_name":"user_name"},"contactinfo":{"firstname":"vishnu","phone_number":"8074839733","email":"vishnu26121993@gmail.com","lastname":"vardhan"},"mail_info":{"pincode":"pincode","address":"address","city":"city","state":"state"}})</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: session deleted because of page crash
+from unknown error: cannot determine loading status
+from tab crashed
+  (Session info: chrome=88.0.4324.96)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;43b03140fc1e&apos;, ip: &apos;172.20.0.5&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.19.121-linuxkit&apos;, java.version: &apos;1.8.0_212&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.96, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /tmp/.com.google.Chrome.sfl9Dq}, goog:chromeOptions: {debuggerAddress: localhost:42633}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: b896d89c13a6860320ae5c7685e...}
+Session ID: b896d89c13a6860320ae5c7685ed307e
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at com.newtours.pages.RegistrationPage.goTo(RegistrationPage.java:61)
+	at com.newtour.tests.BookFlightsTest.registrationPageTest(BookFlightsTest.java:37)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registrationPageTest(Registration parameters in main test, {&quot;country&quot;:&quot;INDIA&quot;,&quot;user_info&quot;:{&quot;password&quot;:&quot;password&quot;,&quot;user_na...)">
+                  </a> <!-- registrationPageTest(Registration parameters in main test, {"country":"INDIA","user_info":{"password":"password","user_na...) -->
+                  <span class="method-name">registrationPageTest</span>
+                  <span class="parameters">(Registration parameters in main test, {"country":"INDIA","user_info":{"password":"password","user_name":"user_name"},"contactinfo":{"firstname":"vishnu","phone_number":"8074839733","email":"vishnu26121993@gmail.com","lastname":"vardhan"},"mail_info":{"pincode":"pincode","address":"address","city":"city","state":"state"}})</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: session deleted because of page crash
+from unknown error: cannot determine loading status
+from tab crashed
+  (Session info: chrome=88.0.4324.96)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;43b03140fc1e&apos;, ip: &apos;172.20.0.5&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.19.121-linuxkit&apos;, java.version: &apos;1.8.0_212&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.96, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /tmp/.com.google.Chrome.CAdHsq}, goog:chromeOptions: {debuggerAddress: localhost:44069}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 92f378e870ef685d33b8662fd02...}
+Session ID: 92f378e870ef685d33b8662fd0271b45
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at com.newtours.pages.RegistrationPage.goTo(RegistrationPage.java:61)
+	at com.newtour.tests.BookFlightsTest.registrationPageTest(BookFlightsTest.java:37)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registrationPageTest(Registration parameters in main test, {&quot;country&quot;:&quot;INDIA&quot;,&quot;user_info&quot;:{&quot;password&quot;:&quot;password&quot;,&quot;user_na...)">
+                  </a> <!-- registrationPageTest(Registration parameters in main test, {"country":"INDIA","user_info":{"password":"password","user_na...) -->
+                  <span class="method-name">registrationPageTest</span>
+                  <span class="parameters">(Registration parameters in main test, {"country":"INDIA","user_info":{"password":"password","user_name":"user_name"},"contactinfo":{"firstname":"vishnu","phone_number":"8074839733","email":"vishnu26121993@gmail.com","lastname":"vardhan"},"mail_info":{"pincode":"pincode","address":"address","city":"city","state":"state"}})</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: session deleted because of page crash
+from unknown error: cannot determine loading status
+from tab crashed
+  (Session info: chrome=88.0.4324.96)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;43b03140fc1e&apos;, ip: &apos;172.20.0.5&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.19.121-linuxkit&apos;, java.version: &apos;1.8.0_212&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.96, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /tmp/.com.google.Chrome.8ROifw}, goog:chromeOptions: {debuggerAddress: localhost:34255}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 8a193d2cb5a8d9ef754414bfa01...}
+Session ID: 8a193d2cb5a8d9ef754414bfa017a39b
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.isSelected(RemoteWebElement.java:146)
+	at org.openqa.selenium.support.ui.Select.setSelected(Select.java:310)
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:116)
+	at com.newtours.pages.RegistrationPage.dropDown(RegistrationPage.java:80)
+	at com.newtour.tests.BookFlightsTest.registrationPageTest(BookFlightsTest.java:49)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registrationPageTest(Registration parameters in main test, {&quot;country&quot;:&quot;INDIA&quot;,&quot;user_info&quot;:{&quot;password&quot;:&quot;password&quot;,&quot;user_na...)">
+                  </a> <!-- registrationPageTest(Registration parameters in main test, {"country":"INDIA","user_info":{"password":"password","user_na...) -->
+                  <span class="method-name">registrationPageTest</span>
+                  <span class="parameters">(Registration parameters in main test, {"country":"INDIA","user_info":{"password":"password","user_name":"user_name"},"contactinfo":{"firstname":"vishnu","phone_number":"8074839733","email":"vishnu26121993@gmail.com","lastname":"vardhan"},"mail_info":{"pincode":"pincode","address":"address","city":"city","state":"state"}})</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: session deleted because of page crash
+from unknown error: cannot determine loading status
+from tab crashed
+  (Session info: chrome=88.0.4324.96)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;43b03140fc1e&apos;, ip: &apos;172.20.0.5&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.19.121-linuxkit&apos;, java.version: &apos;1.8.0_212&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.96, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /tmp/.com.google.Chrome.PgypLz}, goog:chromeOptions: {debuggerAddress: localhost:45575}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 4c29f9f752732a30a8365a89086...}
+Session ID: 4c29f9f752732a30a8365a89086c0f09
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at com.newtours.pages.RegistrationPage.goTo(RegistrationPage.java:61)
+	at com.newtour.tests.BookFlightsTest.registrationPageTest(BookFlightsTest.java:37)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-book_flight_module-class-failed -->
+          <div class="suite-book_flight_module-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.newtour.tests.BookFlightsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="findFlightsPageTest">
+                  </a> <!-- findFlightsPageTest -->
+                  <span class="method-name">findFlightsPageTest</span>
+                  <div class="stack-trace">java.lang.Throwable: Method BookFlightsTest.findFlightsPageTest()[pri:0, instance:com.newtour.tests.BookFlightsTest@27efef64] depends on not successfully finished methods
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 9 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="findFlightsPageTest">
+                  </a> <!-- findFlightsPageTest -->
+                  <span class="method-name">findFlightsPageTest</span>
+                  <div class="stack-trace">java.lang.Throwable: Method BookFlightsTest.findFlightsPageTest()[pri:0, instance:com.newtour.tests.BookFlightsTest@5622fdf] depends on not successfully finished methods
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 9 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="findFlightsPageTest">
+                  </a> <!-- findFlightsPageTest -->
+                  <span class="method-name">findFlightsPageTest</span>
+                  <div class="stack-trace">java.lang.Throwable: Method BookFlightsTest.findFlightsPageTest()[pri:0, instance:com.newtour.tests.BookFlightsTest@5f341870] depends on not successfully finished methods
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 9 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="findFlightsPageTest">
+                  </a> <!-- findFlightsPageTest -->
+                  <span class="method-name">findFlightsPageTest</span>
+                  <div class="stack-trace">java.lang.Throwable: Method BookFlightsTest.findFlightsPageTest()[pri:0, instance:com.newtour.tests.BookFlightsTest@2f686d1f] depends on not successfully finished methods
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 9 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="flightsDetailsPageTest">
+                  </a> <!-- flightsDetailsPageTest -->
+                  <span class="method-name">flightsDetailsPageTest</span>
+                  <div class="stack-trace">java.lang.Throwable: Method BookFlightsTest.flightsDetailsPageTest()[pri:0, instance:com.newtour.tests.BookFlightsTest@27efef64] depends on not successfully finished methods
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 9 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="flightsDetailsPageTest">
+                  </a> <!-- flightsDetailsPageTest -->
+                  <span class="method-name">flightsDetailsPageTest</span>
+                  <div class="stack-trace">java.lang.Throwable: Method BookFlightsTest.flightsDetailsPageTest()[pri:0, instance:com.newtour.tests.BookFlightsTest@5622fdf] depends on not successfully finished methods
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 9 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="flightsDetailsPageTest">
+                  </a> <!-- flightsDetailsPageTest -->
+                  <span class="method-name">flightsDetailsPageTest</span>
+                  <div class="stack-trace">java.lang.Throwable: Method BookFlightsTest.flightsDetailsPageTest()[pri:0, instance:com.newtour.tests.BookFlightsTest@5f341870] depends on not successfully finished methods
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 9 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="flightsDetailsPageTest">
+                  </a> <!-- flightsDetailsPageTest -->
+                  <span class="method-name">flightsDetailsPageTest</span>
+                  <div class="stack-trace">java.lang.Throwable: Method BookFlightsTest.flightsDetailsPageTest()[pri:0, instance:com.newtour.tests.BookFlightsTest@2f686d1f] depends on not successfully finished methods
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 9 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="printConformationPageTest">
+                  </a> <!-- printConformationPageTest -->
+                  <span class="method-name">printConformationPageTest</span>
+                  <div class="stack-trace">java.lang.Throwable: Method BookFlightsTest.printConformationPageTest()[pri:0, instance:com.newtour.tests.BookFlightsTest@27efef64] depends on not successfully finished methods
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 9 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="printConformationPageTest">
+                  </a> <!-- printConformationPageTest -->
+                  <span class="method-name">printConformationPageTest</span>
+                  <div class="stack-trace">java.lang.Throwable: Method BookFlightsTest.printConformationPageTest()[pri:0, instance:com.newtour.tests.BookFlightsTest@5622fdf] depends on not successfully finished methods
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 9 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="printConformationPageTest">
+                  </a> <!-- printConformationPageTest -->
+                  <span class="method-name">printConformationPageTest</span>
+                  <div class="stack-trace">java.lang.Throwable: Method BookFlightsTest.printConformationPageTest()[pri:0, instance:com.newtour.tests.BookFlightsTest@5f341870] depends on not successfully finished methods
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 9 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="printConformationPageTest">
+                  </a> <!-- printConformationPageTest -->
+                  <span class="method-name">printConformationPageTest</span>
+                  <div class="stack-trace">java.lang.Throwable: Method BookFlightsTest.printConformationPageTest()[pri:0, instance:com.newtour.tests.BookFlightsTest@2f686d1f] depends on not successfully finished methods
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 9 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registrationConfirmationPageTest">
+                  </a> <!-- registrationConfirmationPageTest -->
+                  <span class="method-name">registrationConfirmationPageTest</span>
+                  <div class="stack-trace">java.lang.Throwable: Method BookFlightsTest.registrationConfirmationPageTest()[pri:0, instance:com.newtour.tests.BookFlightsTest@27efef64] depends on not successfully finished methods
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 9 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registrationConfirmationPageTest">
+                  </a> <!-- registrationConfirmationPageTest -->
+                  <span class="method-name">registrationConfirmationPageTest</span>
+                  <div class="stack-trace">java.lang.Throwable: Method BookFlightsTest.registrationConfirmationPageTest()[pri:0, instance:com.newtour.tests.BookFlightsTest@5622fdf] depends on not successfully finished methods
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 9 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registrationConfirmationPageTest">
+                  </a> <!-- registrationConfirmationPageTest -->
+                  <span class="method-name">registrationConfirmationPageTest</span>
+                  <div class="stack-trace">java.lang.Throwable: Method BookFlightsTest.registrationConfirmationPageTest()[pri:0, instance:com.newtour.tests.BookFlightsTest@5f341870] depends on not successfully finished methods
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 9 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registrationConfirmationPageTest">
+                  </a> <!-- registrationConfirmationPageTest -->
+                  <span class="method-name">registrationConfirmationPageTest</span>
+                  <div class="stack-trace">java.lang.Throwable: Method BookFlightsTest.registrationConfirmationPageTest()[pri:0, instance:com.newtour.tests.BookFlightsTest@2f686d1f] depends on not successfully finished methods
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 9 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-book_flight_module-class-skipped -->
+          <div class="suite-book_flight_module-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.newtour.tests.BookFlightsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="findFlightsPageTest">
+                  </a> <!-- findFlightsPageTest -->
+                  <span class="method-name">findFlightsPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="findFlightsPageTest">
+                  </a> <!-- findFlightsPageTest -->
+                  <span class="method-name">findFlightsPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="findFlightsPageTest">
+                  </a> <!-- findFlightsPageTest -->
+                  <span class="method-name">findFlightsPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="findFlightsPageTest">
+                  </a> <!-- findFlightsPageTest -->
+                  <span class="method-name">findFlightsPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="flightsDetailsPageTest">
+                  </a> <!-- flightsDetailsPageTest -->
+                  <span class="method-name">flightsDetailsPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="flightsDetailsPageTest">
+                  </a> <!-- flightsDetailsPageTest -->
+                  <span class="method-name">flightsDetailsPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="flightsDetailsPageTest">
+                  </a> <!-- flightsDetailsPageTest -->
+                  <span class="method-name">flightsDetailsPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="flightsDetailsPageTest">
+                  </a> <!-- flightsDetailsPageTest -->
+                  <span class="method-name">flightsDetailsPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="printConformationPageTest">
+                  </a> <!-- printConformationPageTest -->
+                  <span class="method-name">printConformationPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="printConformationPageTest">
+                  </a> <!-- printConformationPageTest -->
+                  <span class="method-name">printConformationPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registrationConfirmationPageTest">
+                  </a> <!-- registrationConfirmationPageTest -->
+                  <span class="method-name">registrationConfirmationPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registrationConfirmationPageTest">
+                  </a> <!-- registrationConfirmationPageTest -->
+                  <span class="method-name">registrationConfirmationPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registrationConfirmationPageTest">
+                  </a> <!-- registrationConfirmationPageTest -->
+                  <span class="method-name">registrationConfirmationPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registrationConfirmationPageTest">
+                  </a> <!-- registrationConfirmationPageTest -->
+                  <span class="method-name">registrationConfirmationPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registrationPageTest(Registration parameters in main test, {&quot;country&quot;:&quot;INDIA&quot;,&quot;user_info&quot;:{&quot;password&quot;:&quot;password&quot;,&quot;user_na...)">
+                  </a> <!-- registrationPageTest(Registration parameters in main test, {"country":"INDIA","user_info":{"password":"password","user_na...) -->
+                  <span class="method-name">registrationPageTest</span>
+                  <span class="parameters">(Registration parameters in main test, {"country":"INDIA","user_info":{"password":"password","user_name":"user_name"},"contactinfo":{"firstname":"vishnu","phone_number":"8074839733","email":"vishnu26121993@gmail.com","lastname":"vardhan"},"mail_info":{"pincode":"pincode","address":"address","city":"city","state":"state"}})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registrationPageTest(Registration parameters in main test, {&quot;country&quot;:&quot;INDIA&quot;,&quot;user_info&quot;:{&quot;password&quot;:&quot;password&quot;,&quot;user_na...)">
+                  </a> <!-- registrationPageTest(Registration parameters in main test, {"country":"INDIA","user_info":{"password":"password","user_na...) -->
+                  <span class="method-name">registrationPageTest</span>
+                  <span class="parameters">(Registration parameters in main test, {"country":"INDIA","user_info":{"password":"password","user_name":"user_name"},"contactinfo":{"firstname":"vishnu","phone_number":"8074839733","email":"vishnu26121993@gmail.com","lastname":"vardhan"},"mail_info":{"pincode":"pincode","address":"address","city":"city","state":"state"}})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registrationPageTest(Registration parameters in main test, {&quot;country&quot;:&quot;INDIA&quot;,&quot;user_info&quot;:{&quot;password&quot;:&quot;password&quot;,&quot;user_na...)">
+                  </a> <!-- registrationPageTest(Registration parameters in main test, {"country":"INDIA","user_info":{"password":"password","user_na...) -->
+                  <span class="method-name">registrationPageTest</span>
+                  <span class="parameters">(Registration parameters in main test, {"country":"INDIA","user_info":{"password":"password","user_name":"user_name"},"contactinfo":{"firstname":"vishnu","phone_number":"8074839733","email":"vishnu26121993@gmail.com","lastname":"vardhan"},"mail_info":{"pincode":"pincode","address":"address","city":"city","state":"state"}})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registrationPageTest(Registration parameters in main test, {&quot;country&quot;:&quot;INDIA&quot;,&quot;user_info&quot;:{&quot;password&quot;:&quot;password&quot;,&quot;user_na...)">
+                  </a> <!-- registrationPageTest(Registration parameters in main test, {"country":"INDIA","user_info":{"password":"password","user_na...) -->
+                  <span class="method-name">registrationPageTest</span>
+                  <span class="parameters">(Registration parameters in main test, {"country":"INDIA","user_info":{"password":"password","user_name":"user_name"},"contactinfo":{"firstname":"vishnu","phone_number":"8074839733","email":"vishnu26121993@gmail.com","lastname":"vardhan"},"mail_info":{"pincode":"pincode","address":"address","city":"city","state":"state"}})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-book_flight_module-class-passed -->
+        </div> <!-- panel book_flight_module -->
+        <div panel-name="test-xml-book_flight_module" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/usr/share/selenium-docker-automation/book_flights.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;book-flight-module&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;book-flight-1-chrome&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;expectedPrice&quot; value=&quot;584 USD&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;noOfPassengers&quot; value=&quot;1&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.newtour.tests.BookFlightsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- book-flight-1-chrome --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;book-flight-2-chrome&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;expectedPrice&quot; value=&quot;$1169 USD&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;noOfPassengers&quot; value=&quot;2&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.newtour.tests.BookFlightsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- book-flight-2-chrome --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;book-flight-3-chrome&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;expectedPrice&quot; value=&quot;$1753 USD&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;noOfPassengers&quot; value=&quot;3&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.newtour.tests.BookFlightsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- book-flight-3-chrome --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;book-flight-4-chrome&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;expectedPrice&quot; value=&quot;$2338 USD&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;noOfPassengers&quot; value=&quot;4&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.newtour.tests.BookFlightsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- book-flight-4-chrome --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;book-flight-1-firefox&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;expectedPrice&quot; value=&quot;584 USD&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;parameter name=&quot;noOfPassengers&quot; value=&quot;1&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.newtour.tests.BookFlightsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- book-flight-1-firefox --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;book-flight-2-firefox&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;expectedPrice&quot; value=&quot;$1169 USD&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;parameter name=&quot;noOfPassengers&quot; value=&quot;2&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.newtour.tests.BookFlightsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- book-flight-2-firefox --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;book-flight-3-firefox&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;expectedPrice&quot; value=&quot;$1753 USD&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;parameter name=&quot;noOfPassengers&quot; value=&quot;3&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.newtour.tests.BookFlightsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- book-flight-3-firefox --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;book-flight-4-firefox&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;expectedPrice&quot; value=&quot;$2338 USD&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;parameter name=&quot;noOfPassengers&quot; value=&quot;4&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.newtour.tests.BookFlightsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- book-flight-4-firefox --&gt;
+&lt;/suite&gt; &lt;!-- book-flight-module --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-book_flight_module" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for book-flight-module</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">book-flight-1-chrome (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">book-flight-2-chrome (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">book-flight-3-chrome (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">book-flight-4-chrome (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">book-flight-1-firefox (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">book-flight-2-firefox (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">book-flight-3-firefox (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">book-flight-4-firefox (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-book_flight_module" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for book-flight-module</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-book_flight_module" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for book-flight-module</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_book_flight_module');
+function tableData_book_flight_module() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(40);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'registrationPageTest')
+data.setCell(0, 2, 'com.newtour.tests.BookFlightsTest')
+data.setCell(0, 3, 29812);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'registrationPageTest')
+data.setCell(1, 2, 'com.newtour.tests.BookFlightsTest')
+data.setCell(1, 3, 13388);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'registrationPageTest')
+data.setCell(2, 2, 'com.newtour.tests.BookFlightsTest')
+data.setCell(2, 3, 11089);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'registrationPageTest')
+data.setCell(3, 2, 'com.newtour.tests.BookFlightsTest')
+data.setCell(3, 3, 10867);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'registrationPageTest')
+data.setCell(4, 2, 'com.newtour.tests.BookFlightsTest')
+data.setCell(4, 3, 10865);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'registrationPageTest')
+data.setCell(5, 2, 'com.newtour.tests.BookFlightsTest')
+data.setCell(5, 3, 10333);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'registrationPageTest')
+data.setCell(6, 2, 'com.newtour.tests.BookFlightsTest')
+data.setCell(6, 3, 9984);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'registrationPageTest')
+data.setCell(7, 2, 'com.newtour.tests.BookFlightsTest')
+data.setCell(7, 3, 9934);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'flightsDetailsPageTest')
+data.setCell(8, 2, 'com.newtour.tests.BookFlightsTest')
+data.setCell(8, 3, 2020);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'flightsDetailsPageTest')
+data.setCell(9, 2, 'com.newtour.tests.BookFlightsTest')
+data.setCell(9, 3, 1889);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'flightsDetailsPageTest')
+data.setCell(10, 2, 'com.newtour.tests.BookFlightsTest')
+data.setCell(10, 3, 1769);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'flightsDetailsPageTest')
+data.setCell(11, 2, 'com.newtour.tests.BookFlightsTest')
+data.setCell(11, 3, 1623);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'printConformationPageTest')
+data.setCell(12, 2, 'com.newtour.tests.BookFlightsTest')
+data.setCell(12, 3, 608);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'printConformationPageTest')
+data.setCell(13, 2, 'com.newtour.tests.BookFlightsTest')
+data.setCell(13, 3, 590);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'findFlightsPageTest')
+data.setCell(14, 2, 'com.newtour.tests.BookFlightsTest')
+data.setCell(14, 3, 588);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'findFlightsPageTest')
+data.setCell(15, 2, 'com.newtour.tests.BookFlightsTest')
+data.setCell(15, 3, 514);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'findFlightsPageTest')
+data.setCell(16, 2, 'com.newtour.tests.BookFlightsTest')
+data.setCell(16, 3, 507);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'registrationConfirmationPageTest')
+data.setCell(17, 2, 'com.newtour.tests.BookFlightsTest')
+data.setCell(17, 3, 501);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'printConformationPageTest')
+data.setCell(18, 2, 'com.newtour.tests.BookFlightsTest')
+data.setCell(18, 3, 482);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'findFlightsPageTest')
+data.setCell(19, 2, 'com.newtour.tests.BookFlightsTest')
+data.setCell(19, 3, 441);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'printConformationPageTest')
+data.setCell(20, 2, 'com.newtour.tests.BookFlightsTest')
+data.setCell(20, 3, 379);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'registrationConfirmationPageTest')
+data.setCell(21, 2, 'com.newtour.tests.BookFlightsTest')
+data.setCell(21, 3, 270);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'registrationConfirmationPageTest')
+data.setCell(22, 2, 'com.newtour.tests.BookFlightsTest')
+data.setCell(22, 3, 259);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'registrationConfirmationPageTest')
+data.setCell(23, 2, 'com.newtour.tests.BookFlightsTest')
+data.setCell(23, 3, 240);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'printConformationPageTest')
+data.setCell(24, 2, 'com.newtour.tests.BookFlightsTest')
+data.setCell(24, 3, 1);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'printConformationPageTest')
+data.setCell(25, 2, 'com.newtour.tests.BookFlightsTest')
+data.setCell(25, 3, 0);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'flightsDetailsPageTest')
+data.setCell(26, 2, 'com.newtour.tests.BookFlightsTest')
+data.setCell(26, 3, 0);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'registrationConfirmationPageTest')
+data.setCell(27, 2, 'com.newtour.tests.BookFlightsTest')
+data.setCell(27, 3, 0);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'findFlightsPageTest')
+data.setCell(28, 2, 'com.newtour.tests.BookFlightsTest')
+data.setCell(28, 3, 0);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'printConformationPageTest')
+data.setCell(29, 2, 'com.newtour.tests.BookFlightsTest')
+data.setCell(29, 3, 0);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'flightsDetailsPageTest')
+data.setCell(30, 2, 'com.newtour.tests.BookFlightsTest')
+data.setCell(30, 3, 0);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'registrationConfirmationPageTest')
+data.setCell(31, 2, 'com.newtour.tests.BookFlightsTest')
+data.setCell(31, 3, 0);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'findFlightsPageTest')
+data.setCell(32, 2, 'com.newtour.tests.BookFlightsTest')
+data.setCell(32, 3, 0);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'printConformationPageTest')
+data.setCell(33, 2, 'com.newtour.tests.BookFlightsTest')
+data.setCell(33, 3, 0);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'flightsDetailsPageTest')
+data.setCell(34, 2, 'com.newtour.tests.BookFlightsTest')
+data.setCell(34, 3, 0);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'registrationConfirmationPageTest')
+data.setCell(35, 2, 'com.newtour.tests.BookFlightsTest')
+data.setCell(35, 3, 0);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'findFlightsPageTest')
+data.setCell(36, 2, 'com.newtour.tests.BookFlightsTest')
+data.setCell(36, 3, 0);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'registrationConfirmationPageTest')
+data.setCell(37, 2, 'com.newtour.tests.BookFlightsTest')
+data.setCell(37, 3, 0);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'flightsDetailsPageTest')
+data.setCell(38, 2, 'com.newtour.tests.BookFlightsTest')
+data.setCell(38, 3, 0);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'findFlightsPageTest')
+data.setCell(39, 2, 'com.newtour.tests.BookFlightsTest')
+data.setCell(39, 3, 0);
+window.suiteTableData['book_flight_module']= { tableData: data, tableDiv: 'times-div-book_flight_module'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-book_flight_module">
+              </div> <!-- times-div-book_flight_module -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-book_flight_module" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for book-flight-module</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-book_flight_module" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-book_flight_module" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.newtour.tests.BookFlightsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">1 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">1 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">1 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">2 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">setupParameters(3, $1753 USD, chrome)</span>
+                <span class="method-start">2780 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">registrationPageTest(Registration parameters in main test, {"country":"INDIA","user_info":{"password":"password","user_na...)</span>
+                <span class="method-start">2875 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=registrationPageTest status=SUCCESS method=BookFlightsTest.registrationPageTest(jav...)</span>
+                <span class="method-start">12866 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">registrationConfirmationPageTest</span>
+                <span class="method-start">12884 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=registrationConfirmationPageTest status=SUCCESS method=BookFlightsTest.registration...)</span>
+                <span class="method-start">13125 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">flightsDetailsPageTest</span>
+                <span class="method-start">13126 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=flightsDetailsPageTest status=SUCCESS method=BookFlightsTest.flightsDetailsPageTest...)</span>
+                <span class="method-start">15147 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">findFlightsPageTest</span>
+                <span class="method-start">15148 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=findFlightsPageTest status=SUCCESS method=BookFlightsTest.findFlightsPageTest()[pri...)</span>
+                <span class="method-start">15655 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">printConformationPageTest</span>
+                <span class="method-start">15657 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=printConformationPageTest status=SUCCESS method=BookFlightsTest.printConformationPa...)</span>
+                <span class="method-start">16139 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">16141 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">16334 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">setupParameters(1, 584 USD, chrome)</span>
+                <span class="method-start">17311 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">registrationPageTest(Registration parameters in main test, {"country":"INDIA","user_info":{"password":"password","user_na...)</span>
+                <span class="method-start">17313 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=registrationPageTest status=SUCCESS method=BookFlightsTest.registrationPageTest(jav...)</span>
+                <span class="method-start">28180 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">registrationConfirmationPageTest</span>
+                <span class="method-start">28181 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=registrationConfirmationPageTest status=SUCCESS method=BookFlightsTest.registration...)</span>
+                <span class="method-start">28440 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">flightsDetailsPageTest</span>
+                <span class="method-start">28441 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=flightsDetailsPageTest status=SUCCESS method=BookFlightsTest.flightsDetailsPageTest...)</span>
+                <span class="method-start">30064 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">findFlightsPageTest</span>
+                <span class="method-start">30065 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=findFlightsPageTest status=SUCCESS method=BookFlightsTest.findFlightsPageTest()[pri...)</span>
+                <span class="method-start">30507 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">printConformationPageTest</span>
+                <span class="method-start">30508 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=printConformationPageTest status=FAILURE method=BookFlightsTest.printConformationPa...)</span>
+                <span class="method-start">30888 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">31766 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">31922 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">setupParameters(1, 584 USD, firefox)</span>
+                <span class="method-start">33452 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">registrationPageTest(Registration parameters in main test, {"country":"INDIA","user_info":{"password":"password","user_na...)</span>
+                <span class="method-start">33454 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=registrationPageTest status=SUCCESS method=BookFlightsTest.registrationPageTest(jav...)</span>
+                <span class="method-start">44319 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">registrationConfirmationPageTest</span>
+                <span class="method-start">44321 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=registrationConfirmationPageTest status=SUCCESS method=BookFlightsTest.registration...)</span>
+                <span class="method-start">44822 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">flightsDetailsPageTest</span>
+                <span class="method-start">44823 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=flightsDetailsPageTest status=SUCCESS method=BookFlightsTest.flightsDetailsPageTest...)</span>
+                <span class="method-start">46712 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">findFlightsPageTest</span>
+                <span class="method-start">46713 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=findFlightsPageTest status=SUCCESS method=BookFlightsTest.findFlightsPageTest()[pri...)</span>
+                <span class="method-start">47301 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">printConformationPageTest</span>
+                <span class="method-start">47302 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=printConformationPageTest status=FAILURE method=BookFlightsTest.printConformationPa...)</span>
+                <span class="method-start">47910 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">48614 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">48808 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">setupParameters(2, $1169 USD, chrome)</span>
+                <span class="method-start">49721 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">registrationPageTest(Registration parameters in main test, {"country":"INDIA","user_info":{"password":"password","user_na...)</span>
+                <span class="method-start">49723 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">screenshot([TestResult name=registrationPageTest status=FAILURE method=BookFlightsTest.registrationPageTest(jav...)</span>
+                <span class="method-start">60056 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">registrationConfirmationPageTest</span>
+                <span class="method-start">60081 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">flightsDetailsPageTest</span>
+                <span class="method-start">60081 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">findFlightsPageTest</span>
+                <span class="method-start">60082 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">printConformationPageTest</span>
+                <span class="method-start">60082 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">60082 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">setupParameters(4, $2338 USD, chrome)</span>
+                <span class="method-start">61417 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">registrationPageTest(Registration parameters in main test, {"country":"INDIA","user_info":{"password":"password","user_na...)</span>
+                <span class="method-start">61421 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">screenshot([TestResult name=registrationPageTest status=FAILURE method=BookFlightsTest.registrationPageTest(jav...)</span>
+                <span class="method-start">74810 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">registrationConfirmationPageTest</span>
+                <span class="method-start">74847 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">flightsDetailsPageTest</span>
+                <span class="method-start">74847 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">findFlightsPageTest</span>
+                <span class="method-start">74847 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">printConformationPageTest</span>
+                <span class="method-start">74849 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">74850 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">setupParameters(2, $1169 USD, firefox)</span>
+                <span class="method-start">75848 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">registrationPageTest(Registration parameters in main test, {"country":"INDIA","user_info":{"password":"password","user_na...)</span>
+                <span class="method-start">75855 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=registrationPageTest status=SUCCESS method=BookFlightsTest.registrationPageTest(jav...)</span>
+                <span class="method-start">86944 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">registrationConfirmationPageTest</span>
+                <span class="method-start">86945 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=registrationConfirmationPageTest status=SUCCESS method=BookFlightsTest.registration...)</span>
+                <span class="method-start">87215 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">flightsDetailsPageTest</span>
+                <span class="method-start">87216 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=flightsDetailsPageTest status=SUCCESS method=BookFlightsTest.flightsDetailsPageTest...)</span>
+                <span class="method-start">88985 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">findFlightsPageTest</span>
+                <span class="method-start">88986 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=findFlightsPageTest status=SUCCESS method=BookFlightsTest.findFlightsPageTest()[pri...)</span>
+                <span class="method-start">89500 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">printConformationPageTest</span>
+                <span class="method-start">89501 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshot([TestResult name=printConformationPageTest status=SUCCESS method=BookFlightsTest.printConformationPa...)</span>
+                <span class="method-start">90092 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">90097 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">setupParameters(3, $1753 USD, firefox)</span>
+                <span class="method-start">91206 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">registrationPageTest(Registration parameters in main test, {"country":"INDIA","user_info":{"password":"password","user_na...)</span>
+                <span class="method-start">91208 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">screenshot([TestResult name=registrationPageTest status=FAILURE method=BookFlightsTest.registrationPageTest(jav...)</span>
+                <span class="method-start">121021 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">registrationConfirmationPageTest</span>
+                <span class="method-start">121074 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">flightsDetailsPageTest</span>
+                <span class="method-start">121075 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">findFlightsPageTest</span>
+                <span class="method-start">121075 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">printConformationPageTest</span>
+                <span class="method-start">121075 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">121075 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">setupParameters(4, $2338 USD, firefox)</span>
+                <span class="method-start">122319 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">registrationPageTest(Registration parameters in main test, {"country":"INDIA","user_info":{"password":"password","user_na...)</span>
+                <span class="method-start">122324 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">screenshot([TestResult name=registrationPageTest status=FAILURE method=BookFlightsTest.registrationPageTest(jav...)</span>
+                <span class="method-start">132259 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">registrationConfirmationPageTest</span>
+                <span class="method-start">132276 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">flightsDetailsPageTest</span>
+                <span class="method-start">132277 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">findFlightsPageTest</span>
+                <span class="method-start">132277 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">printConformationPageTest</span>
+                <span class="method-start">132279 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">132281 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
