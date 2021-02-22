@@ -10,6 +10,7 @@ pipeline {
             steps {
 
                 sh "docker build -t='vishnu26121993/selenium-docker:${BUILD_NUMBER}' ."
+                sh "docker build -t='vishnu26121993/selenium-docker' ."
             }
         }
         stage('Push Image') {
@@ -21,5 +22,11 @@ pipeline {
 			    }
             }
         }
+    }
+    post{
+    always{
+    archiveArtifacts artifacts: 'book_flights.xml'
+    }
+
     }
 }
