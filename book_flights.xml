@@ -34,7 +34,7 @@
     </test>
     <test name="book-flight-1-firefox">
         <parameter name="noOfPassengers" value="1" />
-        <parameter name="expectedPrice" value="$584 USD" />
+        <parameter name="expectedPrice" value="584 USD" />
         <parameter name="browser" value="firefox"></parameter>
         <classes>
             <class name="com.newtour.tests.BookFlightsTest" />
