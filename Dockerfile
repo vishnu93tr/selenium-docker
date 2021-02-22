@@ -10,10 +10,12 @@ ADD target/libs libs
 ADD src/test/resources/testcases/FlightsModule/Registration.json testcases/FlightsModule/Registration.json
 #copy xml files
 ADD book_flights.xml book_flights.xml
-
-
 #Add health check script
 ADD healthcheck.sh healthcheck.sh
 #entrypoint
 #BROWSER,HUB_HOST,MODULE
 ENTRYPOINT sh healthcheck.sh
+
+#copy failed screenshots if any
+ADD Screenshots/chrome Screenshots/chrome
+ADD Screenshots/firefox Screenshots/firefox

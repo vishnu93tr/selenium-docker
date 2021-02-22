@@ -2,24 +2,30 @@ package com.newtour.tests;
 
 
 import com.newtours.pages.*;
+import org.apache.commons.io.FileUtils;
 import org.json.JSONObject;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.testng.Assert;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Parameters;
-import org.testng.annotations.Test;
+import org.testng.ITestResult;
+import org.testng.annotations.*;
 import tests.BaseTest;
+
+import java.io.File;
+import java.io.IOException;
 
 public class BookFlightsTest extends BaseTest{
 
     private String noOfPassengers;
     private String expectedPrice;
+    private String browser;
 
     @BeforeTest
-    @Parameters({"noOfPassengers","expectedPrice"})
-    public void setupParameters(String noOfPassengers,String expectedPrice){
+    @Parameters({"noOfPassengers","expectedPrice","browser"})
+    public void setupParameters(String noOfPassengers,String expectedPrice,String browser){
         this.noOfPassengers=noOfPassengers;
         this.expectedPrice=expectedPrice;
+        this.browser=browser;
     }
     @Test(dataProvider = "dp_registration")
     public void registrationPageTest(String name,String json_case) {
@@ -80,5 +86,18 @@ public class BookFlightsTest extends BaseTest{
            obj[i][1]=js.toString();
        }
        return obj;
+    }
+    @AfterMethod
+    public void screenshot(ITestResult iTestResult){
+        if(ITestResult.FAILURE==iTestResult.getStatus()){
+            try {
+                TakesScreenshot screenshot=(TakesScreenshot)this.driver;
+                File src=screenshot.getScreenshotAs(OutputType.FILE);
+                FileUtils.copyFile(src,new File("./Screenshots/"+this.browser+"/"+iTestResult.getName()+".png"));
+                System.out.println("successfully captured screenshot");
+            } catch (IOException e) {
+                System.out.println("Exception while taking screenshot "+e.getMessage());
+            }
+        }
     }
 }

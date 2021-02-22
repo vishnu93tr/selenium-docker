@@ -1,29 +1,65 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 <suite name="book-flight-module" parallel="tests">
-    <test name="book-flight-1">
+    <test name="book-flight-1-chrome">
         <parameter name="noOfPassengers" value="1" />
         <parameter name="expectedPrice" value="584 USD" />
+        <parameter name="browser" value="chrome"></parameter>
         <classes>
             <class name="com.newtour.tests.BookFlightsTest" />
         </classes>
     </test>
-    <test name="book-flight-2">
+    <test name="book-flight-2-chrome">
         <parameter name="noOfPassengers" value="2" />
         <parameter name="expectedPrice" value="$1169 USD" />
+        <parameter name="browser" value="chrome"></parameter>
         <classes>
             <class name="com.newtour.tests.BookFlightsTest" />
         </classes>
     </test>
-    <test name="book-flight-3">
+    <test name="book-flight-3-chrome">
         <parameter name="noOfPassengers" value="3" />
         <parameter name="expectedPrice" value="$1753 USD" />
+        <parameter name="browser" value="chrome"></parameter>
         <classes>
             <class name="com.newtour.tests.BookFlightsTest" />
         </classes>
     </test>
-    <test name="book-flight-4">
+    <test name="book-flight-4-chrome">
         <parameter name="noOfPassengers" value="4" />
         <parameter name="expectedPrice" value="$2338 USD" />
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="com.newtour.tests.BookFlightsTest" />
+        </classes>
+    </test>
+    <test name="book-flight-1-firefox">
+        <parameter name="noOfPassengers" value="1" />
+        <parameter name="expectedPrice" value="584 USD" />
+        <parameter name="browser" value="firefox"></parameter>
+        <classes>
+            <class name="com.newtour.tests.BookFlightsTest" />
+        </classes>
+    </test>
+    <test name="book-flight-2-firefox">
+        <parameter name="noOfPassengers" value="2" />
+        <parameter name="expectedPrice" value="$1169 USD" />
+        <parameter name="browser" value="firefox"></parameter>
+        <classes>
+            <class name="com.newtour.tests.BookFlightsTest" />
+        </classes>
+    </test>
+    <test name="book-flight-3-firefox">
+        <parameter name="noOfPassengers" value="3" />
+        <parameter name="expectedPrice" value="$1753 USD" />
+        <parameter name="browser" value="firefox"></parameter>
+        <classes>
+            <class name="com.newtour.tests.BookFlightsTest" />
+        </classes>
+    </test>
+    <test name="book-flight-4-firefox">
+        <parameter name="noOfPassengers" value="4" />
+        <parameter name="expectedPrice" value="$2338 USD" />
+        <parameter name="browser" value="firefox"></parameter>
         <classes>
             <class name="com.newtour.tests.BookFlightsTest" />
         </classes>
