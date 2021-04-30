@@ -13,6 +13,11 @@ pipeline {
                     '''
                 }
             }
+	    stage('Build DIND'){
+		    steps{
+			    sh 'docker pull docker'
+		    }
+	    }
         stage('Build Jar') {
             steps {
                 sh "mvn clean package -DskipTests"
